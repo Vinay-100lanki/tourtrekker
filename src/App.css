@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,7 +15,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +37,38 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+body{
+  font-family: "Poppins" , sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.refresh{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  margin-top: 18px;
+  padding: 10px 80px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: black;
+  transition: all 0.2s;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
